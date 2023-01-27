@@ -39,12 +39,14 @@ body{
     border-radius: 5px;
     font-size: 1vw;
     transition: .5s;
+    cursor: pointer;
 }
 .cover-description button:hover{
     background-color: white;
     color: black;
     border-radius: 20px;
     font-weight: 700;
+    gap: 5px;
 }
 .cover-img{
     margin-bottom: -7px;
@@ -53,6 +55,38 @@ body{
     width: 30vw;
     height: 30vw;
 }
+
+/* <!-- All of about Match --> */
+.match-container{
+    display: flex;
+    gap: 5%;
+    padding: 7% 7% 0% 8%;
+}
+.select-btn{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    padding: 5% 5% 12% 5%;
+    border-radius: 5px;
+}
+.select-btn a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    margin-top: 8%;
+    border-radius: 5px;
+}
+.match-list{
+    width: 80%;
+}
+.box{
+    
+}
+
+
 
 
 
