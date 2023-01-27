@@ -26,7 +26,7 @@
     font-size: 3vw;
 }
 .cover-description p{
-    font-size: 16px;
+    font-size: 1vw;
 }
 .cover-description button{
     background: #dd0000;
@@ -34,7 +34,7 @@
     padding: 3% 6%;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1.5vw;
 }
 .cover-img{
     /* width: 40%; */
