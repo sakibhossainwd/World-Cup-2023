@@ -85,9 +85,17 @@ body{
     border-radius: 5px;
 }
 #red{
-    background-color: #dd0000;
+    background-color: #ff1212;
+    color: rgb(0, 0, 0);
+}
+.upcoming{
+    transition: .5s;
+}
+.upcoming:hover{
+    background-color: rgb(218, 154, 5);
     color: white;
 }
+
 .match-list{
     width: 80%;
 }
@@ -97,7 +105,7 @@ body{
     gap: 5%;
 }
 .box{
-    border: 1px solid black;
+    border: 1px solid rgb(98, 98, 98);
     border-radius: 10px;
     width: 314px;
 }

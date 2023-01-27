@@ -1,9 +1,27 @@
+#upcoming{
+    background:#f2ca30 ;
+}
+#blog{
+    transition: .5s;
+}
+#blog:hover{
+    background-color: rgb(252, 13, 13);
+    color: aliceblue;
+}
+.box-1 {
+    border: 1px solid black;
+    height: 220px;
+    padding: 7%;
+    width: 319px;
+}
 .img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 7%;
 }
 .vs{
     text-align: center;
     align-items: center;
+}
+.box-description{
+    text-align: center;
 }
