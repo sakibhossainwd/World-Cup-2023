@@ -1,0 +1,9 @@
+.img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 7%;
+}
+.vs{
+    text-align: center;
+    align-items: center;
+}
