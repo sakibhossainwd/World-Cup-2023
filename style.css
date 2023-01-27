@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* cover part start from here */
+.cover{
+    padding: 3% 8%;
+}
+.cover-container{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+    padding: 7% 7% 0% 7%;
+}
+.cover-content{
+    display: flex;
+    column-gap: 10%;
+}
+.cover-description{
+    width: 40%;
+    margin-top: 10%;
+}
+.cover-description h1{
+    font-size: 70px;
+}
+.cover-description p{
+    font-size: 16px;
+}
+.cover-description button{
+    background: #dd0000;
+    color: white;
+    padding: 3% 6%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.cover-img{
+    width: 40%;
+    margin-left: 7%;
+    margin-bottom: -4px;
+}
+.cover-img img{
+    width: 590px;
+    height: 620px;
+}
+
+
+
+/* Tablet resposive part */
+@media  screen and (min-width: 600px) and (max-width: 768px) {
+    .cover-container {
+        padding: 7% 16% 0% 7%;
+    }
+    .cover-description h1 {
+        font-size: 30px;
+    }
+    .cover-description p{
+        font-size: 8px;
+    }
+    .cover-description button {
+        font-size: 8px;
+    }
+    .cover-img img {
+        width: 300px;
+        height: 300px;
+    }
+}
